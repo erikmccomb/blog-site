@@ -8,7 +8,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer'; 
 
 const TemplateWrapper = ({ children, history }) => (
- <div style={{backgroundColor: '#2b4141', height: '100vh'}}>
+ <div style={{backgroundColor: '#2b4141', height: '100%', minHeight: '100%', paddingBottom: '10vh'}}>
     <Helmet
       title="Dragon on Your Shirt"
       meta={[
