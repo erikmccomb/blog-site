@@ -9,19 +9,25 @@ import Footer from '../components/Footer';
 
 const TemplateWrapper = ({ children, history }) => (
  <div>
-   <Helmet
-     title="Dragon on Your Shirt"
-     meta={[
-       { name: 'description', content: 'webdev' },
-       { name: 'keywords', content: 'programming, javascript, ruby' },
-     ]}
-   />
-   <Header history={history} />
-   <Container>
-     {children()}
-   </Container>
-   <Footer />
- </div>
+    <Helmet
+      title="Dragon on Your Shirt"
+      meta={[
+        { name: 'description', content: 'webdev' },
+        { name: 'keywords', content: 'programming, javascript, ruby' },
+      ]}
+    />
+
+    <div>
+      <Header history={history} />
+    </div>
+    
+    <div>
+      <Container>
+        {children()}
+      </Container>
+    </div>
+
+  </div>
 )
 
 TemplateWrapper.propTypes = {

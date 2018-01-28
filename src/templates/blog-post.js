@@ -11,9 +11,14 @@ const Template = ({ data }) => {
   return (
     <div> 
       <Helmet title={`Erik's Blog - ${post.frontmatter.title}`} />
+      
       <div>
-        <Button as={Link} to='/' color='blue'>Back</Button>
+        <Button as={Link} to='/' color='blue'>
+          Back
+        </Button>
+
         <Segment textAlign='center' basic>
+
           <Header as='h1'>{post.frontmatter.title}</Header>
           <Header as='h4' color='grey'>{post.frontmatter.date}</Header>
           {
@@ -23,6 +28,7 @@ const Template = ({ data }) => {
               </Label>
             )
           }
+          
         </Segment>
         <br />
 
