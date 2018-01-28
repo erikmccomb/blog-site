@@ -45,27 +45,27 @@ const Header = ({ history: { location: { pathname } } }) => (
             Resume
           </Menu.Item>
           
-          <Menu.Item>
+          <Menu.Item style={styles.icons}>
             <a href='https://www.facebook.com/OneTrueErik' target="_blank">
-              <Icon name='facebook' size='huge' /> 
+              <Icon name='facebook' size='big' style={{color: '#03f7eb'}}/> 
             </a>
           </Menu.Item>
           
-          <Menu.Item>
+          <Menu.Item style={styles.icons}>
             <a href='https://twitter.com/ErikMccomb' target="_blank">
-              <Icon name='twitter' size='huge' />
+              <Icon name='twitter' size='big' style={{color: '#03f7eb'}}/>
             </a>
           </Menu.Item>
           
-          <Menu.Item>
+          <Menu.Item style={styles.icons}>
             <a href='https://www.instagram.com/itserikwith_a_k/' target="_blank">
-              <Icon name='instagram' size='huge' />
+              <Icon name='instagram' size='big' style={{color: '#03f7eb'}}/>
             </a>
           </Menu.Item>
           
-          <Menu.Item>
+          <Menu.Item style={styles.icons}>
             <a href='https://github.com/erikmccomb' target="_blank">
-              <Icon name='github' size='huge' />
+              <Icon name='github' size='big' style={{color: '#03f7eb'}}/>
             </a>
           </Menu.Item>
           
@@ -78,13 +78,17 @@ const Header = ({ history: { location: { pathname } } }) => (
 const styles = {
   menu: {
     backgroundColor: '#0a0908',
-    marginBottom: '1vh',
-    height: '15vh',
     width: '100%',
     display: 'flex',
     borderRadius: 0,
   },
   button: {
+    color: '#03f7eb',
+  },
+  icons: {
+    paddingLeft: '5px',
+    paddingRight: '5px',
+    margin: 0,
     color: '#03f7eb',
   }
 }

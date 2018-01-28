@@ -9,7 +9,7 @@ const Template = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <div> 
+    <div > 
       <Helmet title={`Erik's Blog - ${post.frontmatter.title}`} />
       
       <div>
