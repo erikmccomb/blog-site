@@ -2,7 +2,7 @@
 path: "/test-post"
 date: "2018-01-28T01:04:48-07:00"
 title: "Test Gatsby Blog Post"
-tags: ['React', 'Gatsby', 'Programming']
+tags: ['Dragon on your shirt']
 ---
 
 it's like that feeling you get when you have a dragon on your shirt #dragonshirt
