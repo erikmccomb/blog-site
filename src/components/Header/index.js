@@ -5,7 +5,6 @@ import { Segment, Container, Menu, Icon } from 'semantic-ui-react'
 const Header = ({ history: { location: { pathname } } }) => (
   <div>
     <Menu
-      borderless
       style={styles.menu}>
       <Container>
         <Menu.Item
@@ -78,8 +77,6 @@ const Header = ({ history: { location: { pathname } } }) => (
 const styles = {
   menu: {
     backgroundColor: '#0a0908',
-    width: '100%',
-    display: 'flex',
     borderRadius: 0,
   },
   button: {

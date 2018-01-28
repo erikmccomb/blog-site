@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children, history }) => (
       <Header history={history} />
     </div>
     
-    <div>
+    <div style={{paddingTop: '15px'}}>
       <Container>
         {children()}
       </Container>
