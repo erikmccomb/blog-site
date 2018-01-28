@@ -78,6 +78,7 @@ const styles = {
   menu: {
     backgroundColor: '#0a0908',
     borderRadius: 0,
+    width: '100%',
   },
   button: {
     color: '#03f7eb',
