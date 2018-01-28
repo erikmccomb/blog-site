@@ -10,7 +10,7 @@ const Template = ({ data }) => {
 
   return (
     <div> 
-      <Helmet title={`Taylor's Blog - ${post.frontmatter.title}`} />
+      <Helmet title={`Erik's Blog - ${post.frontmatter.title}`} />
       <div>
         <Button as={Link} to='/' color='blue'>Back</Button>
         <Segment textAlign='center' basic>
