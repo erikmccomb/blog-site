@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Helmet title="Taylor's Projects" />
+        <Helmet title="Erik's Projects" />
         projects
       </div>
     );

@@ -5,7 +5,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Helmet title="Taylor's Resume" />
+        <Helmet title="Erik's Resume" />
         resume
       </div>
     );
